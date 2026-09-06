@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Gowun Batang';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/gowun-batang/files/gowun-batang-korean-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gowun Batang';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('@fontsource/gowun-batang/files/gowun-batang-korean-700-normal.woff2') format('woff2');
+}

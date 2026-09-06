@@ -1,0 +1,15 @@
+export const AUDIO_CONFIG = {
+  backgroundMusicVolume: 0.12,
+  backgroundMusicFadeInMilliseconds: 1_200,
+  backgroundMusicCrossfadeMilliseconds: 4_000,
+  backgroundMusicStopFadeMilliseconds: 800,
+  uiClickVolume: 0.28,
+  cashRegisterVolume: 0.34,
+  dayNumberSwapVolume: 0.3,
+  shopWindowBellVolume: 0.28,
+  eventVolume: 0.38,
+  customerBellVolume: 0.3,
+  statementClickVolume: 0.32,
+  statementPaperVolume: 0.34,
+  customerTypingVolume: 0.18,
+} as const;

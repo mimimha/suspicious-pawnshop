@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 확정 제목. 저장소 이름(vive-pawnshop)이 아니라 게임 제목을 쓴다. -->
+    <title>오늘도 수상한 전당포</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #1a1a1a;
+      }
+      #game {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      /*
+       * 캔버스 크기는 Phaser ScaleManager(FIT)가 인라인 스타일로 직접 지정한다.
+       * 여기에 max-width/max-height 를 걸면 리사이즈 직후 아직 갱신되지 않은
+       * 인라인 값의 한쪽 축만 깎여 화면 비율이 찌그러진다. 넘칠 때는 #game 의
+       * overflow:hidden 이 잘라내므로 비율은 항상 유지된다.
+       */
+      #game canvas {
+        display: block;
+        touch-action: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

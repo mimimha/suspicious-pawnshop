@@ -1,0 +1,27 @@
+# Claude Code 개인 설정 (머신별 경로 / 권한 승인 기록)
+# 저장 시 생기는 임시 파일(*.tmp.<pid>.<hash>)까지 함께 제외한다.
+.claude/settings.local.json*
+
+# 의존성 / 빌드 산출물 (아직 사용하지 않지만 미리 차단)
+node_modules/
+dist/
+build/
+.vite/
+
+# 환경 변수 / 비밀값
+.env
+.env.*
+!.env.example
+
+# 로그
+*.log
+npm-debug.log*
+
+# OS / 에디터
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# 작업용 임시 자료(Notion 후보 이미지 등)
+.tmp/

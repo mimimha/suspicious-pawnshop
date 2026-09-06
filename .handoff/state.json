@@ -1,0 +1,10 @@
+{
+  "status": "ready_for_playtest",
+  "currentPrd": "docs/prd/step-05/prd-5-1-authenticity-fake-sales.md",
+  "currentTask": "시세 장부 정리(위조 위험 표시·목록 순서·시세 줄 채움) 플레이테스트",
+  "iteration": 3,
+  "maxIterations": 5,
+  "needsUserDecision": false,
+  "lastUpdated": "2026-08-26T01:35:00Z",
+  "summary": "시세 장부의 보유 항목 시세 줄을 매입품 창과 같은 규칙(보유 1일 이상이면 현재 시세)으로 채웠다. 위조 위험 표시를 목록 컨테이너 밖으로 내리고, 목록을 오래된 순으로 쌓아 새 기록이 맨 아래에 들어가게 했다."
+}
